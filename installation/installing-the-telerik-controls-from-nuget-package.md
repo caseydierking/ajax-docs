@@ -159,7 +159,7 @@ Make sure that the Telerik NuGet Feed is live at [https://status.telerik.com/](h
 
 ### Error: [Telerik NuGet] The V2 feed at 'https://nuget.telerik.com/nuget/Search()?$filter=IsLatestVersion&searchTerm='telerik'&targetFramework='net45'&includePrerelease=false&$skip=0&$top=26&semVerLevel=2.0.0' returned an unexpected status code '401 Logon failed.'.
 
-See the following forum thread on the matter: nuget can't connect to [https://nuget.telerik.com/nuget](https://www.telerik.com/forums/nuget-can't-connect-to-https-nuget-telerik-com-nuget).
+See the following forum thread on the matter: [nuget can't connect to Telerik NuGet Server](https://www.telerik.com/forums/nuget-can't-connect-to-https-nuget-telerik-com-nuget).
  
 
 ## Additional Resources
