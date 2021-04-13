@@ -73,10 +73,8 @@ The following tutorial demonstrates how to set up a page with a **RadSwitch** co
         protected void RadSwitch1_CheckedChanged(object sender, EventArgs e)
         {
             var switchObj = sender as RadSwitch;
-            var currentText = (bool)switchObj.Checked ? switchObj.ToggleStates.ToggleStateOn.Text : switchObj.ToggleStates.ToggleStateOff.Text;
             string data = string.Format("current text: {0}, current value {1}, current command argument: {2}, checked: {3}",
-    
-                                        currentText, switchObj.Value, switchObj.CommandArgument, switchObj.Checked);
+                                        RadSwitch1.CurrentToggleState.Text, switchObj.Value, switchObj.CommandArgument, switchObj.Checked);
             Label1.Text = data;
         }
 
@@ -85,8 +83,7 @@ The following tutorial demonstrates how to set up a page with a **RadSwitch** co
 	
         Protected Sub RadSwitch1_CheckedChanged(ByVal sender As Object, ByVal e As EventArgs)
             Dim switchObj = TryCast(sender, RadSwitch)
-            Dim currentText = If(CBool(switchObj.Checked), switchObj.ToggleStates.ToggleStateOn.Text, switchObj.ToggleStates.ToggleStateOff.Text)
-            Dim data As String = String.Format("current text: {0}, current value {1}, current command argument: {2}, checked: {3}", currentText, switchObj.Value, switchObj.CommandArgument, switchObj.Checked)
+            Dim data As String = String.Format("current text: {0}, current value {1}, current command argument: {2}, checked: {3}", RadSwitch1.CurrentToggleState.Text, switchObj.Value, switchObj.CommandArgument, switchObj.Checked)
             Label1.Text = data
         End Sub
 
