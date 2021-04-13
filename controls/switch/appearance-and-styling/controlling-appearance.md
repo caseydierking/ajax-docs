@@ -35,7 +35,7 @@ If you want to use long toggle state labels, you can make **RadSwitch** wider by
 
 ## Custom Icons
 
->caption Wide RadSwitch with long labels
+>caption RadSwitch with custom icons
 ![RadSwitch with custom icons](images/switch-controlling-appearance-icons.gif)
 
 
@@ -93,7 +93,7 @@ button.RadButton.customIcons.k-switch-off.k-state-hover .k-switch-handle {
 
 ## Square RadSwitch
 
->caption Wide RadSwitch with long labels
+>caption RadSwitch with square elements
 ![Square RadSwitch](images/switch-controlling-appearance-square.gif)
 
 ````CSS
